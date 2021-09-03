@@ -21,7 +21,7 @@ function App() {
 
  const countTotalFeedback = () => {
     //общеe количествo собранных отзывов из всех категорий
-  return good + bad + neutral;
+  return good + neutral + bad;
  };
   
     const countPositiveFeedbackPercentage = () => {
